@@ -5,6 +5,8 @@ Personal Bookshelf is a React application that allows users to search for books 
 
 ## Features
 
+### Responsive and improved UX notification alert when book added.
+
 - Book Search Page:
   - Search for books using the Open Library API.
   - Display search results in real-time as the user types.
@@ -18,7 +20,7 @@ Personal Bookshelf is a React application that allows users to search for books 
 ## Tech Stack & Styling
 
 - Initialized the project using Create React App (CRA).
-- Styling: Tailwind CSS for responsive and clean UI design.
+- Styling: Tailwind CSS, Next UI library for responsive and clean UI design.
 
 ## Getting Started
 

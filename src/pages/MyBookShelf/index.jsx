@@ -27,7 +27,7 @@ const MyBookshelf = ({ bookshelf }) => {
       ) : (
         <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-4 border rounded-md lg:p-2 m-2">
           {bookshelf.map((book) => (
-            <Card key={book.key} className="max-w-[400px] m-4">
+            <Card key={book.key} className="max-w-[400px] m-4 hover:shadow-2xl">
               <CardHeader className="flex gap-3">
                 <Image
                   alt={`${book.title} cover`}

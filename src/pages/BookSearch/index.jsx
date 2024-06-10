@@ -60,7 +60,7 @@ const BookSearch = ({ addToBookshelf }) => {
       <h1 className="text-center text-green-500 text-4xl mb-2 mt-4 font-sriracha">
         Search Book
       </h1>
-      <div className="flex justify-end lg:w-[90%] max-sm:w-[90%] mx-auto mb-2">
+      <div className="flex justify-end lg:w-[90%] max-sm:w-[90%]  mx-auto mb-2">
         <Link
           to="/my-bookshelf"
           className="bg-green-400 text-white rounded-md px-2 py-2"
@@ -81,7 +81,7 @@ const BookSearch = ({ addToBookshelf }) => {
           ) : (
             <BookList
               books={filteredBooks}
-              addToBookshelf={handleAddToBookshelf} 
+              addToBookshelf={handleAddToBookshelf}
               error={error}
             />
           )}

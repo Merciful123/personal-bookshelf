@@ -17,7 +17,7 @@ const BookCard = ({ book, addToBookshelf }) => {
     : "https://via.placeholder.com/128x193?text=No+Cover";
 
   return (
-    <Card className="max-w-[400px] m-4">
+    <Card className="max-w-[400px] m-4 hover:shadow-2xl">
       <CardHeader className="flex gap-3">
         <Image
           alt={`${book.title} cover`}
